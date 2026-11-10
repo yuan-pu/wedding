@@ -1,0 +1,31 @@
+Project font subsets
+
+The invitation uses two English families and one Chinese family:
+Quetine — the complete original TTF by Khurasan, for the English title.
+Author's release page: https://www.dafont.com/quetine.font
+Download: https://dl.dafont.com/dl/?f=quetine
+Permission: free for personal and commercial use, as stated in the author's
+included More Info.txt; see Quetine-Author-Info.txt. The font is not modified,
+renamed, or subsetted. The previous Pinyon source is retained locally for reference.
+
+Wedding Text — a regular-weight WOFF2 subset of Courier Prime, for English body text.
+Publisher: https://github.com/google/fonts/tree/main/ofl/courierprime
+Source: https://raw.githubusercontent.com/google/fonts/main/ofl/courierprime/CourierPrime-Regular.ttf
+License: SIL Open Font License 1.1; see CourierPrime-OFL.txt.
+The previous Montserrat source is retained locally for reference.
+
+Wedding Mincho — a WOFF2 subset of Huiwen Mincho (汇文明朝体), 特里王,
+using the punctuation corrections maintained by bosswnx.
+Author: https://huozi.cool/
+Original publication: https://zhuanlan.zhihu.com/p/344103391
+Source: https://github.com/bosswnx/huiwenmincho-improved
+Repository license: see HuiwenMincho-Repository-LICENSE.txt.
+Original author permissions: see HuiwenMincho-Author-Permissions.txt.
+
+The Courier Prime and Huiwen subsets retain copyright records; only the family names
+and character coverage are changed. Quetine is copied unchanged.
+Full TTF sources are kept locally in materials/fonts/.
+To rebuild after text changes: install fonttools and brotli in your Python
+environment, then run python3 scripts/prepare-fonts.py.
+Prepared WOFF2 assets are committed with the site; the regular Vite build needs
+neither Python nor network access for fonts. The standalone preview embeds them.

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="430" height="440" viewBox="0 0 430 440" fill="none">
+  <title>合照占位：两个人物剪纸</title>
+  <path d="M35 132C41 54 111 24 208 31C311 21 388 80 394 167L389 352C298 387 141 386 41 351Z" fill="#e8eadf"/>
+  <path d="M58 353C62 274 90 252 150 243L206 271L222 355Z" fill="#fffdf5" stroke="#fffdf5" stroke-width="18" stroke-linejoin="round"/>
+  <path d="M199 355L214 272L257 235C323 240 356 281 369 355Z" fill="#fffdf5" stroke="#fffdf5" stroke-width="18" stroke-linejoin="round"/>
+  <path d="M100 179C91 151 99 116 121 103C151 83 185 104 186 138L180 205L111 215Z" fill="#30372e" stroke="#fffdf5" stroke-width="14" stroke-linejoin="round"/>
+  <path d="M236 171C229 147 239 116 262 108C289 95 315 115 315 141L308 196L244 199Z" fill="#30372e" stroke="#fffdf5" stroke-width="14" stroke-linejoin="round"/>
+  <path d="M62 353C64 286 92 256 132 250L148 271L169 246C197 254 212 291 216 354Z" fill="#e3b0b5"/>
+  <path d="M202 353C206 287 224 260 254 247L270 265L289 246C333 259 359 299 368 354Z" fill="#333c31"/>
+  <path d="M134 222L134 253L148 270L165 250L161 217Z" fill="#d8bc9d"/>
+  <path d="M254 218L253 250L270 265L288 246L285 213Z" fill="#d8bc9d"/>
+  <path d="M113 153C112 135 124 118 145 118C168 119 178 137 175 163L171 188C167 207 158 222 146 224C128 221 117 209 114 187Z" fill="#e6cbb0"/>
+  <path d="M245 150C248 133 261 121 277 123C298 125 307 142 304 162L300 186C297 207 287 221 274 223C256 221 247 209 244 185Z" fill="#e6cbb0"/>
+  <path d="M109 157C113 130 121 114 146 113C169 113 181 136 178 154C161 147 146 137 138 128C131 143 121 151 109 157Z" fill="#30372e"/>
+  <path d="M241 151C246 126 261 114 281 116C301 117 311 135 308 153C288 152 278 143 270 134C259 145 249 149 241 151Z" fill="#30372e"/>
+  <path d="M133 267L148 282L168 262" stroke="#fff3e2" stroke-width="2"/>
+  <path d="M254 249L268 277L245 282L236 260M288 247L272 277L292 285L304 260" stroke="#f8f2e2" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M212 109C199 100 189 93 193 84C197 77 207 82 211 88C217 75 231 80 229 90C228 98 219 106 212 109Z" stroke="#962e3e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M77 215L67 212M78 204L71 197M80 225L70 228M337 202L347 198M334 193L340 185M340 212L351 213" stroke="#657459" stroke-width="1.7" stroke-linecap="round"/>
+  <path d="M185 353C190 332 209 326 221 315C232 307 245 315 238 324C228 336 222 345 216 355" fill="#e6cbb0"/>
+  <path d="M205 355C200 341 190 325 180 321C171 317 166 324 172 333L189 354" fill="#e6cbb0"/>
+  <path d="M49 355C151 367 274 369 380 355" stroke="#657459" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

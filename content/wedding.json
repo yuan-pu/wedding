@@ -1,0 +1,69 @@
+{
+  "couple": {
+    "name1": "刘凌海",
+    "name2": "浦媛",
+    "english1": "Linghai Liu",
+    "english2": "Yuan Pu"
+  },
+  "event": {
+    "year": 2026,
+    "month": 11,
+    "day": 15,
+    "startTime": "11:00",
+    "endTime": "14:00",
+    "timeZone": "EST"
+  },
+  "venue": {
+    "name": "Gioia Cafe and Bar · Rooftop",
+    "city": "New Haven",
+    "region": "Connecticut",
+    "address": "150 Wooster Street, New Haven CT",
+    "mapUrl": "",
+    "note": ""
+  },
+  "copy": {
+    "eyebrow": "",
+    "intro": "",
+    "invitationTitle": "婚礼请柬",
+    "detailsTitle": "",
+    "dressCodeNote": "任选以上颜色。",
+    "dressCodeNoteEnglish": "Choose any of these colors.",
+    "closing": "- 届时见面 -",
+    "closingEnglish": "With love, and a seat for you."
+  },
+  "dressCode": [
+    { "name": "白", "english": "White", "color": "#faf7ed" },
+    { "name": "黑", "english": "Black", "color": "#292a26" },
+    { "name": "红", "english": "Red", "color": "#962e3e" },
+    { "name": "粉", "english": "Pink", "color": "#e5b7bb" }
+  ],
+  "appearance": {
+    "calendarColor": "#e8ebdf",
+    "greenInk": "#657459"
+  },
+  "photos": {
+    "hero": {
+      "src": "assets/photos/couple-sunset-paper-v2.webp",
+      "originalSrc": "assets/photos/couple-sunset.webp",
+      "alt": "夕阳合照的人物剪纸，带宽纸白色撕纸边",
+      "style": "sticker",
+      "cutline": "pink",
+      "width": 1254,
+      "height": 1254
+    },
+    "gallery": [
+      { "src": "assets/photos/couple-mountain-paper-v2.webp", "originalSrc": "assets/photos/couple-mountain.webp", "alt": "山间合照的人物剪纸，带宽纸白色撕纸边", "style": "sticker", "cutline": "green", "width": 1254, "height": 1254 },
+      { "src": "assets/photos/couple-graduation-paper-v2.webp", "originalSrc": "assets/photos/couple-graduation.webp", "alt": "毕业合照的人物剪纸，带宽纸白色撕纸边", "style": "sticker", "cutline": "red", "width": 1254, "height": 1254 }
+    ]
+  },
+  "music": {
+    "src": "assets/audio/wedding-piano.mp3",
+    "volume": 0.35
+  },
+  "sharing": {
+    "title": "Welcome to our wedding · 11.15",
+    "description": "刘凌海 & 浦媛 · 2026 年 11 月 15 日 · 11:00–14:00 · New Haven",
+    "siteUrl": "",
+    "image": ""
+  }
+}

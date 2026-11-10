@@ -1,0 +1,43 @@
+{
+  "version": 2,
+  "mode": "built-in image_gen",
+  "status": "local style samples, not published",
+  "currentPaperColor": "#FAF7ED",
+  "paperColorSource": "content/wedding.json → dressCode entry named 白",
+  "presentation": "Generated wide neutral-white paper bases are tinted by the page's paper-tint SVG filter; near-white photographic highlights may also be slightly tinted.",
+  "fonts": {
+    "englishTitle": "Pinyon Script",
+    "englishBody": "Montserrat",
+    "chinese": "Huiwen Mincho"
+  },
+  "assets": [
+    {
+      "key": "sunset_v2",
+      "editTargets": [
+        "/Users/yuanpu/Documents/wedding/materials/photos-processed/couple-sunset-paper-v1.png"
+      ],
+      "savedPNG": "materials/photos-processed/couple-sunset-paper-v2.png",
+      "savedWebP": "public/assets/photos/couple-sunset-paper-v2.webp",
+      "prompt": "Use case: background-extraction. Asset type: transparent photographic paper cutout for a minimal wedding invitation. Keep the couple's original photographed identities, expressions, glasses, hair, pose, clothes and lighting as faithfully as possible; no beautification, illustration, face replacement or invented body parts. Paper treatment: a VERY BROAD clean PURE WHITE (#FFFFFF) opaque border around the COMBINED silhouette, approximately 70–85 pixels wide at 1024px scale, visually like a generous photo-album margin and about twice the width of the earlier thin cream edge. The band must be bright neutral white, never ivory, beige, yellow, aged or stained. Only its outer perimeter has tasteful irregular hand-torn contours and subtle fibers. Keep the white band broad and mostly flat; no noisy crumbs or detached paper speckles. Everything outside the people and the white paper band is genuine transparent alpha, no checkerboard baked in, no colored background, no rectangular or square backing, no lettering, no additional people. Square canvas; fit the whole cutout including all paper edges with transparent padding on all sides, no clipped paper border. Image 1 is the edit target: the existing two-person sunset paper cutout. CHANGE ONLY the existing cream paper border: replace it with the much wider pure white torn-paper band described above. Preserve the two people's faces and photographic content exactly as shown in this existing cutout, including the woman with round glasses on the left and man in pale yellow T-shirt on the right. Do not reinterpret or redraw the people. Retain the cropped torso composition. Do not add clothing or body parts beyond the current photo."
+    },
+    {
+      "key": "mountain_v2",
+      "editTargets": [
+        "/Users/yuanpu/Documents/wedding/materials/photos-original/IMG_1994.JPG"
+      ],
+      "savedPNG": "materials/photos-processed/couple-mountain-paper-v2.png",
+      "savedWebP": "public/assets/photos/couple-mountain-paper-v2.webp",
+      "prompt": "Use case: background-extraction. Asset type: transparent photographic paper cutout for a minimal wedding invitation. Keep the couple's original photographed identities, expressions, glasses, hair, pose, clothes and lighting as faithfully as possible; no beautification, illustration, face replacement or invented body parts. Paper treatment: a VERY BROAD clean PURE WHITE (#FFFFFF) opaque border around the COMBINED silhouette, approximately 70–85 pixels wide at 1024px scale, visually like a generous photo-album margin and about twice the width of the earlier thin cream edge. The band must be bright neutral white, never ivory, beige, yellow, aged or stained. Only its outer perimeter has tasteful irregular hand-torn contours and subtle fibers. Keep the white band broad and mostly flat; no noisy crumbs or detached paper speckles. Everything outside the people and the white paper band is genuine transparent alpha, no checkerboard baked in, no colored background, no rectangular or square backing, no lettering, no additional people. Square canvas; fit the whole cutout including all paper edges with transparent padding on all sides, no clipped paper border. Image 1 is the edit target, a square mountain-lake selfie. Extract ONLY the foreground couple together: the man wearing rectangular glasses and a brown hoodie on the LEFT and the woman wearing round glasses and a dark hoodie on the RIGHT. Remove all sky, mountains, lake, trees and landscape, including areas between and around their hair and shoulders. Keep the original close selfie proportions, faces, expressions and torso crop. Preserve the original glasses and warm directional sunshine. No expansion or reconstruction of the cropped torsos."
+    },
+    {
+      "key": "graduation_v2",
+      "editTargets": [
+        "/Users/yuanpu/Documents/wedding/materials/photos-original/IMG_1996.JPG"
+      ],
+      "savedPNG": "materials/photos-processed/couple-graduation-paper-v2.png",
+      "savedWebP": "public/assets/photos/couple-graduation-paper-v2.webp",
+      "prompt": "Use case: background-extraction. Asset type: transparent photographic paper cutout for a minimal wedding invitation. Keep the couple's original photographed identities, expressions, glasses, hair, pose, clothes and lighting as faithfully as possible; no beautification, illustration, face replacement or invented body parts. Paper treatment: a VERY BROAD clean PURE WHITE (#FFFFFF) opaque border around the COMBINED silhouette, approximately 70–85 pixels wide at 1024px scale, visually like a generous photo-album margin and about twice the width of the earlier thin cream edge. The band must be bright neutral white, never ivory, beige, yellow, aged or stained. Only its outer perimeter has tasteful irregular hand-torn contours and subtle fibers. Keep the white band broad and mostly flat; no noisy crumbs or detached paper speckles. Everything outside the people and the white paper band is genuine transparent alpha, no checkerboard baked in, no colored background, no rectangular or square backing, no lettering, no additional people. Square canvas; fit the whole cutout including all paper edges with transparent padding on all sides, no clipped paper border. Image 1 is the edit target, a graduation crowd photograph. Extract ONLY the central smiling couple together: the man wearing rectangular glasses, his own black graduation cap and red stole on the LEFT, and the smiling woman with round glasses and long dark hair on the RIGHT, including her visible hand resting on his left shoulder. Remove every other person, every background hat that belongs to another person, all trees, buildings, and the out-of-focus spectator's head in the foreground. Their lower bodies are obscured in the source: DO NOT invent, reconstruct or outpaint those hidden areas. Finish the combined lower edge with a gentle hand-torn crop through the visible upper-chest area above the foreground spectator, preserving only the visible source portions. Keep the man’s own cap, their real faces, both pairs of glasses, the visible red stoles and original expressions."
+    }
+  ],
+  "identityNote": "Generative extraction can reconstruct portrait details. Compare to originals before selecting final wedding photos. Original JPG files are unchanged."
+}

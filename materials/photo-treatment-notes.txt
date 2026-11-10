@@ -1,0 +1,20 @@
+照片处理试样 v1
+
+模式：内置 image_gen 工具，background-extraction，transparent_background=true；未使用 API/CLI 生成模式。
+用途：本地婚礼网页的纸边风格试样，尚未发布。
+
+主照来源：materials/photos-original/IMG_1993.JPG
+AI 处理样张：materials/photos-processed/couple-sunset-paper-v1.png
+网页用透明副本：public/assets/photos/couple-sunset-paper-v1.webp
+保留背景副本：public/assets/photos/couple-sunset.webp
+其他照片：public/assets/photos/couple-mountain.webp；public/assets/photos/couple-graduation.webp
+
+注意：生成式处理可能重建人像细节，这一版用于比较轮廓、纸边和排版。应对照原片确认人像后，再决定是否作为最终请柬照片。原始 JPG 没有被修改。
+
+原片 SHA-256：
+IMG_1993.JPG  5543be71232faa06173856cca65014e5b518268ae26dcce172f8bfd460afe44b
+IMG_1994.JPG  daf81266282f8299d298705914e324836626ad5b412499a3ad02ea3f7803265d
+IMG_1996.JPG  74de916c76c5616286c7422546eaede57d5aa5abdb37d0c3860c8112d2974865
+
+最终使用的提示词：
+Use case: background-extraction. Asset type: transparent photographic paper cutout for the hero of a minimal wedding invitation website. Image 1 is the ONLY edit target: the uploaded square photograph of a smiling woman with round glasses on the LEFT and a smiling man in a pale yellow T-shirt on the RIGHT. Remove ONLY the original sky, buildings, trees and all other background, keeping the two photographed people together as ONE joined cutout. Preserve the exact original identities, facial geometry, expressions, eyes, teeth, glasses reflections, natural skin texture, hair, clothing, relative scale, positions and warm original sunlight. This is photo extraction, not a new portrait: do not redraw, beautify, restyle or invent faces, hands, clothing or missing body parts. Retain the original torso crop at the bottom and original side crops; do not reconstruct beyond the source. Add a clearly THICK warm ivory-white paper margin following the COMBINED OUTER SILHOUETTE of both people, roughly 35–50 pixels wide at a 1024px output scale. The outer edge should look hand torn from substantial matte paper: broad gentle uneven tears with small visible paper fibers, irregular but tasteful, not an evenly smooth sticker outline, not noisy serrations. The people and this thick paper backing are opaque; everything OUTSIDE the torn-paper silhouette is genuinely transparent alpha. No rectangular or square white backing, no background color, no checkerboard baked into the image, no scene, no typography, no decorations, no extra people. Leave generous transparent padding around the complete cutout and its paper edge so no border is cropped. Square canvas; faithfully preserve the original source photograph inside the cutout.
