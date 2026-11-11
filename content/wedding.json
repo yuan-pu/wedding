@@ -11,7 +11,12 @@
     "day": 15,
     "startTime": "11:00",
     "endTime": "14:00",
-    "timeZone": "EST"
+    "timeZone": "EST",
+    "timeline": [
+      { "time": "11:00–11:30", "chinese": "宾客签到 · 茶点", "english": "Arrival & refreshments" },
+      { "time": "11:30", "chinese": "婚礼仪式", "english": "Ceremony" },
+      { "time": "12:00", "chinese": "午宴", "english": "Lunch" }
+    ]
   },
   "venue": {
     "name": "Gioia Cafe and Bar · Rooftop",

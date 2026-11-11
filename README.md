@@ -46,6 +46,7 @@
 - 日期与星期会根据配置生成中英对照，如「11 月 15 日 / 星期日」与「November 15th / Sunday」；英文日期后缀 st / nd / rd / th 自动处理。
 - `event.startTime` / `endTime`：24 小时制，当前是 `11:00` 和 `14:00`。
 - `event.timeZone`：当地时区，目前沿用你填写的 `EST`。如需随夏令时变化，可使用 `America/New_York`。
+- `event.timeline`：绿色日历卡中、当地时间下方的中英流程。每项填写 `time`、`chinese`、`english`；当前为 11:00–11:30 宾客签到与茶点、11:30 婚礼仪式、12:00 午宴。沿用当地时间的 10px 小字和现有字体，每项中文与英文各一行。
 - `venue.name` / `address`：餐厅名称、街道地址。填好地址后，会自动出现 Google Maps 链接。
 - `venue.mapUrl`：可选，填入餐厅实际的地图链接会优先使用。
 - `copy`：页面上的邀请、dress code 和落款文字。`invitationTitle` 是英文标题下的中文标题，目前为「婚礼请柬」。用 `\n` 换行；`eyebrow`、`intro`、`detailsTitle`、`closingEnglish` 留空时不会占位。英文落款已恢复为 `With love, and a seat for you.`。

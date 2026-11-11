@@ -123,6 +123,7 @@ export function renderInvitation(data) {
   const zoneAbbreviation = new Intl.DateTimeFormat('en-US', { timeZone: event.timeZone, timeZoneName: 'short' }).formatToParts(calendarDate).find((part) => part.type === 'timeZoneName')?.value;
   const mapUrl = safeHttpUrl(venue.mapUrl) || (venue.address ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${venue.name}, ${venue.address}, ${venue.city}, ${venue.region}`)}` : '');
   const swatches = data.dressCode.map(({ name, english, color }, index) => `<li class="swatch swatch--${index}"><span class="swatch__paper" style="--swatch-color:${/^#[0-9a-f]{6}$/i.test(color) ? color : '#f4f0e6'}" aria-hidden="true"></span><span class="swatch__name">${escape(name)}</span>${english ? `<span class="swatch__english" lang="en">${escape(english)}</span>` : ''}</li>`).join('');
+  const timeline = (event.timeline || []).map(({ time, chinese, english }) => `<li><span><span lang="en">${escape(time)}</span> ${escape(chinese)}</span><span lang="en">${escape(english)}</span></li>`).join('');
   const gallery = Array.isArray(data.photos.gallery) ? data.photos.gallery : [];
   const photos = [data.photos.hero, ...gallery];
   const musicSrc = assetPath(data.music?.src);
@@ -182,6 +183,7 @@ export function renderInvitation(data) {
             ${englishWeekDay ? `<p class="date-card__weekday" lang="en">${escape(englishWeekDay)}</p>` : ''}
             <p class="date-card__chinese">${dateMarkup}${weekDay ? `<span>${event.year} · ${weekDay}</span>` : ''}</p>
             <div class="date-card__time"><strong lang="en">${escape(event.startTime)} <span>—</span> ${escape(event.endTime)}</strong><span class="date-card__zone">当地时间<span lang="en">Local time${zoneAbbreviation ? ` · ${escape(zoneAbbreviation)}` : ''}</span></span></div>
+            ${timeline ? `<ol class="date-card__timeline" aria-label="婚礼流程 / Wedding timeline">${timeline}</ol>` : ''}
           </article></div>
           <div class="details__right">
             <article class="venue" aria-labelledby="venue-title" data-reveal>
